@@ -1,0 +1,24 @@
+# Binaries
+emudhra-scanner
+emudhra-scanner-*
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build
+dist/
+bin/
+*.tar.gz
+*.zip
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Go
+vendor/
