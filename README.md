@@ -52,7 +52,9 @@ emudhra-scanner check -v       # verbose (show error details)
 emudhra-scanner check -timeout 5s
 
 emudhra-scanner info
-emudhra-scanner fix
+emudhra-scanner fix            # show OS-specific steps (Linux: auto-detect distro)
+emudhra-scanner fix --apply    # Linux: actually run manual block (needs root)
+emudhra-scanner fix --apply --yes
 emudhra-scanner version
 emudhra-scanner help
 ```
